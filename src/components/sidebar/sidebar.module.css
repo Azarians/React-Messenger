@@ -1,0 +1,64 @@
+div[data-hook="sidebar_parent"]{
+  overflow: hidden;
+  height: var(--page-content-height-without-bottom-padding);
+  color: #162D3D;
+  position: fixed;
+  left: 0;
+  width: 160px;
+  box-shadow: 0 3px 4px 0px rgba(22, 45, 61, 0.12), 0 10px 6px 0 rgba(22, 45, 61, 0.12);
+  background-color: #F0F4F7 !important
+}
+
+div[data-hook="sidebar_parent"] button{
+  background-color: #F0F4F7 !important;
+}
+
+div[data-hook="sidebar_parent"] button:hover{
+  background-color: #dadbdc42 !important
+}
+
+div[data-hook="sidebar_parent"] button span{
+  color: #162D3D !important
+}
+
+div[data-hook="sidebar_parent"] button.close_button{
+  background-color: transparent !important
+}
+
+.sidebar_header{
+  font-size: 20px;
+  margin: 10px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.open_sidebar_button{
+  position: fixed;
+  margin: 16px -36px;
+}
+
+body[data-mode="dark"] .open_sidebar_button button{
+  background-color: #292b2d !important
+}
+
+body[data-mode="dark"] .open_sidebar_button button:hover{
+  background-color: #26292b !important
+}
+
+body[data-mode="dark"] div[data-hook="sidebar_parent"]{
+  background-color: #36393F !important;
+  box-shadow: 0px 10px 7px 0px rgb(30 30 30 / 80%);
+  color: white
+}
+
+body[data-mode="dark"] div[data-hook="sidebar_parent"] button{
+  background-color: #36393F !important;
+}
+
+body[data-mode="dark"] div[data-hook="sidebar_parent"] button span{
+  color: white !important
+}
+
+body[data-mode="dark"] div[data-hook="sidebar_parent"] button:hover{
+  background-color: #313338 !important
+}

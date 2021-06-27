@@ -1,0 +1,16 @@
+.container{
+  border-bottom: 1px solid #D9D9DA
+}
+
+.container h6{
+  line-height: 36px !important;
+  text-align: center;
+}
+
+body[data-mode="dark"] .container{
+    border-bottom: 1px solid rgb(75, 85, 99)
+}
+
+body[data-mode="dark"] .container h2, body[data-mode="dark"] .container h6{
+  color: white
+}

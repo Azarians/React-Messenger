@@ -1,0 +1,22 @@
+.container{
+  border-radius: 8px
+}
+.container:hover{
+  background-color: #F0F1EF
+}
+
+.container [data-hook="cell-right"]{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.name span[data-size="medium"]{
+  color: rgb(195, 51, 100)
+}
+
+body[data-mode="dark"] .text span[data-size="medium"]{
+  color: white
+}
+body[data-mode="dark"] .container:hover{
+  background-color: #32353B
+}
